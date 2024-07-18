@@ -1,0 +1,16 @@
+{
+    "name": "StateMachine.Runtime",
+    "rootNamespace": "StateMachine.Runtime",
+    "references": [
+        "GUID:e5e1e7adf38c60a47ae7debb5657aca6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

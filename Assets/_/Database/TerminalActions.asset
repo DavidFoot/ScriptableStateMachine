@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TerminalActions
+  m_EditorClassIdentifier: 
+  _lines:
+  - _sentence: '... know the truth. '
+    _sane: {fileID: 8300000, guid: 16d07d9e6a87ae045af3631bc6573f30, type: 3}
+    _crazy: {fileID: 8300000, guid: 56a840cc2ce7c134b96657fd26155505, type: 3}
+  - _sentence: '... wont stop visiting me '
+    _sane: {fileID: 8300000, guid: 9c079e17bafd57747a10257d15c9a85e, type: 3}
+    _crazy: {fileID: 8300000, guid: 38f215ea783e16c459e1b849881d5878, type: 3}
+  - _sentence: ... keep sparring with me.
+    _sane: {fileID: 8300000, guid: ca1f4ca02704c0b40af7c4480518b274, type: 3}
+    _crazy: {fileID: 8300000, guid: 32cb7aa24a6532b4a9216c6f6da516cc, type: 3}
+  - _sentence: '... have been spitting on me all day. '
+    _sane: {fileID: 8300000, guid: 00ecae81e2c48114a936e9d4c931e26c, type: 3}
+    _crazy: {fileID: 8300000, guid: f38bdc1efa59b5145bdf33b827767b7a, type: 3}
+  - _sentence: ... do this horrible thing. but in conjunction with wo? or whom?
+    _sane: {fileID: 8300000, guid: 8272c2b0e34af9841824ec4342e745ad, type: 3}
+    _crazy: {fileID: 8300000, guid: 89b8e318d8592654ebe3a9117d89c019, type: 3}
+  - _sentence: '... are crawling all over my skin. '
+    _sane: {fileID: 8300000, guid: 38333e302b466ae4c94997d51fc642ed, type: 3}
+    _crazy: {fileID: 8300000, guid: aaaa5cf8dd56bb94eada0301d19e56df, type: 3}
+  - _sentence: ... bit me all night so i can't sleep.
+    _sane: {fileID: 8300000, guid: 0f8a76e16b3e3094689f87fd4011a394, type: 3}
+    _crazy: {fileID: 8300000, guid: 491c6f3f0561f754d92c049db9e80c48, type: 3}
+  - _sentence: '... have everyone fooled. '
+    _sane: {fileID: 8300000, guid: 3b33a61e87a30e049b1b444a436d768a, type: 3}
+    _crazy: {fileID: 8300000, guid: 257c740eb3b0cd54e94197bbba7d75a6, type: 3}
+  - _sentence: '... were digging away at the plastics. '
+    _sane: {fileID: 8300000, guid: 6ac170be4dd3aa847b20b7de5a461c32, type: 3}
+    _crazy: {fileID: 8300000, guid: 9d418b12c6ac5e1409a2d49e10b37cf5, type: 3}
+  - _sentence: ... were dialing in through the optics.
+    _sane: {fileID: 8300000, guid: 58f37823b946fa545bf1a7dbe8e2e94c, type: 3}
+    _crazy: {fileID: 8300000, guid: a0ced4b9f715db1429260c2f096326dc, type: 3}
+  - _sentence: ... stole my theories and reprinted them incorrectly, to discredit 
+      them
+    _sane: {fileID: 8300000, guid: 07e93cc828f70684cae7d6e550975ba6, type: 3}
+    _crazy: {fileID: 8300000, guid: 2eec2e53ad4cce3478c710392e8f21d0, type: 3}
+  - _sentence: '... are not to be trusted. '
+    _sane: {fileID: 8300000, guid: 2a682f91afe60df4c8f5039a292983f4, type: 3}
+    _crazy: {fileID: 8300000, guid: b636058362986d645a5ee5e33b5482ff, type: 3}
+  - _sentence: '... have been living off the the dairy industry. '
+    _sane: {fileID: 8300000, guid: 5f85fd30fdd640a469e412140199b424, type: 3}
+    _crazy: {fileID: 8300000, guid: 5f85fd30fdd640a469e412140199b424, type: 3}
+  - _sentence: '... have been fixing oil prices. '
+    _sane: {fileID: 8300000, guid: 327c247387f2f304e91b8c0203a71969, type: 3}
+    _crazy: {fileID: 8300000, guid: 855f2f60ffcca674dbef8f98ee097896, type: 3}
+  - _sentence: '... assassinated the one man in their way. '
+    _sane: {fileID: 8300000, guid: 1935d9915b8d1214d87f05c0a9d106cf, type: 3}
+    _crazy: {fileID: 8300000, guid: 59d1780b6a5ce13428f7fbf555a5fe52, type: 3}
+  - _sentence: '... pretty much control everything. '
+    _sane: {fileID: 8300000, guid: 57401354243a6d44ba7ae8e90a3d263b, type: 3}
+    _crazy: {fileID: 8300000, guid: a7fc132cd306f2846ba2ae6898837c23, type: 3}
+  - _sentence: ... pick who live and who dies and what the football score are  going
+      to be this week.
+    _sane: {fileID: 8300000, guid: 35d65c577dcbe5748b8bfff3cf5e6bc7, type: 3}
+    _crazy: {fileID: 8300000, guid: bc795eb9f0da74444af31c5c103c2a5b, type: 3}

@@ -1,0 +1,14 @@
+{
+  "m_myStructs": [
+    {
+      "m_boydLine": "a",
+      "m_saneClip": "b",
+      "m_crazyClip": "c"
+    },
+    {
+      "m_boydLine": "d",
+      "m_saneClip": "e",
+      "m_crazyClip": "f"
+    }
+  ]
+}
