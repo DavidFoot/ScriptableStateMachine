@@ -1,3 +1,4 @@
+using SoBoyd.Runtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +17,7 @@ namespace ScriptablesObject.Runtime
     public struct BoydTransition
     {
         [SerializeField] public string m_name;
-        [SerializeField] public BoydLine m_state;
+        [SerializeField] public LinkRessourceToTransition m_state;
         [Range(0.0f,1.0f)]
         [SerializeField] public float m_probability;
 

@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
-  m_Name: Reactions
+  m_Script: {fileID: 11500000, guid: c1da9309e9f050d419e1c4cd0974941d, type: 3}
+  m_Name: Link_PIckVictim
   m_EditorClassIdentifier: 
-  _lines: []
+  m_sentencesAndSounds: {fileID: 11400000, guid: b38cbbc11a298254a990130d85c8cb43, type: 2}
+  m_transitionObject: {fileID: 11400000, guid: 0d223b8b01e149344b60e141764beeac, type: 2}

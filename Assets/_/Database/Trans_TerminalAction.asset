@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5c64c009fa5b448a4647ef3c78a006, type: 3}
+  m_Name: Trans_TerminalAction
+  m_EditorClassIdentifier: 
+  _transitions:
+  - m_name: LinkBackLine
+    m_state: {fileID: 11400000, guid: 221fb6ec4d0a42b44b152dc4c2b0a117, type: 2}
+    m_probability: 0.61
+  - m_name: StartOver
+    m_state: {fileID: 11400000, guid: a5101cef3547b9742a2d410ca777ad7d, type: 2}
+    m_probability: 0.371

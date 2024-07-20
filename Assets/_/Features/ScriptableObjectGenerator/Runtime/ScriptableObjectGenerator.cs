@@ -18,13 +18,9 @@ namespace ScriptableObjectGenerator.Runtime
         private void Awake()
         {
             BoydEntity so_instance = ScriptableObject.CreateInstance<BoydEntity>();
-            //so_instance.m_myStructs.Add(new MyStruct("a","b","c"));
-            //so_instance.m_myStructs.Add(new MyStruct("d","e","f"));
-            //Debug.Log(SaveToString(so_instance));
-            so_instance = JsonUtility.FromJson<BoydEntity>(_myJson.text);
+            JsonUtility.FromJsonOverwrite(_myJson.text, so_instance);
             Debug.Log(so_instance.ToString());
-            //so_instance.m_myStructs.Add(testStruct);
-            string path = "Assets/_/Conspirator.asset";
+            string path = "Assets/_/ConspiratorJson.asset";
             AssetDatabase.CreateAsset(so_instance, path);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
@@ -50,11 +46,6 @@ namespace ScriptableObjectGenerator.Runtime
         #endregion
 
         #region Utils
-
-        public string SaveToString(BoydEntity _test)
-        {
-            return JsonUtility.ToJson(_test, true);
-        }
 
         #endregion
 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TS_Victims
+  m_EditorClassIdentifier: 
+  _lines:
+  - m_sentence: ... the truth.
+    m_sane: {fileID: 8300000, guid: a97ac3b3f1941594ebd52497de529468, type: 3}
+    m_crazy: {fileID: 8300000, guid: edcf94f4042f82443a41922d3c2a0a26, type: 3}
+  - m_sentence: ... all of us.
+    m_sane: {fileID: 8300000, guid: 21946c7389fee534a8485aa1de97e47e, type: 3}
+    m_crazy: {fileID: 8300000, guid: a1b2fb17ee436a840a2116843662a001, type: 3}
+  - m_sentence: ... the whole sack of lies.
+    m_sane: {fileID: 8300000, guid: 1b09752a9632bdb4e8b790c473ee1d47, type: 3}
+    m_crazy: {fileID: 8300000, guid: bc88bad07b5371f43bc0c61c8c0e5c51, type: 3}

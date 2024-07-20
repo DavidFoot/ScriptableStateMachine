@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e44464e556f62b48b5c2b7647d9cd0d, type: 3}
-  m_Name: Conspirator
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TS_Reactions
   m_EditorClassIdentifier: 
-  m_myStructs:
-  - m_boydLine: 
-    m_saneClip: 
-    m_crazyClip: 
+  _lines: []

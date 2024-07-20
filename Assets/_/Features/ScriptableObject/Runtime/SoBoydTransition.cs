@@ -1,21 +1,14 @@
 using ScriptablesObject.Runtime;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-
-
 
 namespace SoBoyd.Runtime
 {
     [CreateAssetMenu]
-    public class SoBoydTextSound : ScriptableObject
+    public class SoBoydTransition : ScriptableObject
     {
         #region Publics
-
-
-
-
         #endregion
 
         #region Unity Api
@@ -29,7 +22,7 @@ namespace SoBoyd.Runtime
 
         #region Private
 
-        [SerializeField] public BoydLine[] _lines;
+        [SerializeField] public BoydTransition[] _transitions;
 
         #endregion
     }
