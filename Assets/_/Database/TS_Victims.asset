@@ -22,3 +22,45 @@ MonoBehaviour:
   - m_sentence: ... the whole sack of lies.
     m_sane: {fileID: 8300000, guid: 1b09752a9632bdb4e8b790c473ee1d47, type: 3}
     m_crazy: {fileID: 8300000, guid: bc88bad07b5371f43bc0c61c8c0e5c51, type: 3}
+  - m_sentence: ... the innocence.
+    m_sane: {fileID: 8300000, guid: 671bfa9933d4423448aa23e83abbecd1, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1590ba2ed0f3d7d43b7b9586912aae70, type: 3}
+  - m_sentence: ... the biggest conspiracy of all.
+    m_sane: {fileID: 8300000, guid: f8f7550b54722864dac70a2e249a67f6, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2d68f9749eb1c46489978b4d67c44ac7, type: 3}
+  - m_sentence: ... the infrastructure.
+    m_sane: {fileID: 8300000, guid: 16c4390d4c119c641b2671a204178a95, type: 3}
+    m_crazy: {fileID: 8300000, guid: fe00715b0db03cc41b9f3320d179114e, type: 3}
+  - m_sentence: ... the lap belt man.
+    m_sane: {fileID: 8300000, guid: 1ebeef97f5be50b47997d4d59cc521c6, type: 3}
+    m_crazy: {fileID: 8300000, guid: e9fc3bc777d038b449af4c89c309f2e8, type: 3}
+  - m_sentence: ... the water supply.
+    m_sane: {fileID: 8300000, guid: cfa56ef213e830a4bbeae0d9a68ba655, type: 3}
+    m_crazy: {fileID: 8300000, guid: f65560c108d2cd24587e4473c1dd17c1, type: 3}
+  - m_sentence: ... the rotundra.
+    m_sane: {fileID: 8300000, guid: a5d954a3cbf6ac74682cf120d44afde1, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2577df8468bae6e4eba7c2f533d314a7, type: 3}
+  - m_sentence: ... the A.M tenderizer.
+    m_sane: {fileID: 8300000, guid: 2c078da134e08c548a9853bc4375599b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 724b3aa0e06c5f44bb6fef41a52c864c, type: 3}
+  - m_sentence: ... last specimen of the supervirus.
+    m_sane: {fileID: 8300000, guid: e0fb39ffb28a4104faf06a3079078558, type: 3}
+    m_crazy: {fileID: 8300000, guid: d096b6efab6aa234db158ece6a63acd7, type: 3}
+  - m_sentence: ... the witnesses.
+    m_sane: {fileID: 8300000, guid: 12d65d7deedb2ce458382c19c3f75a30, type: 3}
+    m_crazy: {fileID: 8300000, guid: bfaefb45f108199449749da33cc13c2d, type: 3}
+  - m_sentence: ... my hooch.
+    m_sane: {fileID: 8300000, guid: ca1e5c33ccbcc39409478c02068fe8b0, type: 3}
+    m_crazy: {fileID: 8300000, guid: f828f1fb1119b5040b9735e51a3594f6, type: 3}
+  - m_sentence: ... the hangingovers.
+    m_sane: {fileID: 8300000, guid: 2da032cf7b9b55643be6e2b416b5d60d, type: 3}
+    m_crazy: {fileID: 8300000, guid: e92a8c72066aca54ea00d6a69418f907, type: 3}
+  - m_sentence: ... a clean perpetual energy source.
+    m_sane: {fileID: 8300000, guid: 5bff1d9332eb1d948afbe6b5dabef321, type: 3}
+    m_crazy: {fileID: 8300000, guid: 16e3288180304594287df993d8fd888e, type: 3}
+  - m_sentence: ... a religious artifact with supposedly unimaginable powers.
+    m_sane: {fileID: 8300000, guid: e69523e1bf6887f42bb17701c9d3a515, type: 3}
+    m_crazy: {fileID: 8300000, guid: 86775248d2f313e418d3104149fc32ee, type: 3}
+  - m_sentence: ... exaclty what? Nobody knows !
+    m_sane: {fileID: 8300000, guid: 31469383768066945b6eb7e3162a09f3, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3bfcb4021b3135044a3bc5a4cd81f8b3, type: 3}
