@@ -1,8 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Plastic.Newtonsoft.Json;
-using System.IO;
-using UnityEditor;
 using UnityEngine;
 
 namespace ScriptableObjectGenerator.Runtime
@@ -21,9 +18,9 @@ namespace ScriptableObjectGenerator.Runtime
             JsonUtility.FromJsonOverwrite(_myJson.text, so_instance);
             Debug.Log(so_instance.ToString());
             string path = "Assets/_/ConspiratorJson.asset";
-            AssetDatabase.CreateAsset(so_instance, path);
-            AssetDatabase.SaveAssets();
-            AssetDatabase.Refresh();
+            //AssetDatabase.CreateAsset(so_instance, path);
+            //AssetDatabase.SaveAssets();
+            //AssetDatabase.Refresh();
 
         }
         #endregion

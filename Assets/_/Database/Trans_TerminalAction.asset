@@ -16,6 +16,9 @@ MonoBehaviour:
   - m_name: LinkBackLine
     m_state: {fileID: 11400000, guid: 221fb6ec4d0a42b44b152dc4c2b0a117, type: 2}
     m_probability: 0.61
-  - m_name: StartOver
-    m_state: {fileID: 11400000, guid: a5101cef3547b9742a2d410ca777ad7d, type: 2}
-    m_probability: 0.371
+  - m_name: Transitional Line
+    m_state: {fileID: 11400000, guid: b7a8b3c51a260534ebe343f82c421a82, type: 2}
+    m_probability: 0.61
+  - m_name: Non Sequitor
+    m_state: {fileID: 11400000, guid: d084cf0575bfeb143bef814187c17627, type: 2}
+    m_probability: 0.61

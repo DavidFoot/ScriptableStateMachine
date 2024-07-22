@@ -10,15 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f5c64c009fa5b448a4647ef3c78a006, type: 3}
-  m_Name: Trans_PickVictim
+  m_Name: Trans_TransitionalLine
   m_EditorClassIdentifier: 
   _transitions:
-  - m_name: LinkBackLine
-    m_state: {fileID: 11400000, guid: 221fb6ec4d0a42b44b152dc4c2b0a117, type: 2}
-    m_probability: 0.67
-  - m_name: Transitional Line
-    m_state: {fileID: 11400000, guid: b7a8b3c51a260534ebe343f82c421a82, type: 2}
-    m_probability: 0.67
   - m_name: Non Sequitor
     m_state: {fileID: 11400000, guid: d084cf0575bfeb143bef814187c17627, type: 2}
-    m_probability: 0.67
+    m_probability: 1

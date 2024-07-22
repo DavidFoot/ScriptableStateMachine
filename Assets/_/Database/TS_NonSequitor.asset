@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TS_NonSequitor
+  m_EditorClassIdentifier: 
+  _lines:
+  - m_sentence: Visiting hours are over
+    m_sane: {fileID: 8300000, guid: 98cdf99fd941a6e4db9a532a0a459f1e, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5915dc2222d096342b9da43871c15d8a, type: 3}
+  - m_sentence: Why does this hydrant keep looking at me?
+    m_sane: {fileID: 8300000, guid: cf213bc49dee69844a2167debf6cf28b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2f060f218b8b80b4785888ae4cbaa37a, type: 3}
+  - m_sentence: You can pass it over the counter, but that don't make it over the
+      counter
+    m_sane: {fileID: 8300000, guid: 988d48a27a03f21439cfee6c99774b2a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4e9d5520601edc8429f9a61071285d49, type: 3}
+  - m_sentence: No insubordination, right Boss? Right?
+    m_sane: {fileID: 8300000, guid: 893b189119ac6e04ca56155740c82081, type: 3}
+    m_crazy: {fileID: 8300000, guid: b56945c79c4306f478ee5ad8ce452a80, type: 3}
+  - m_sentence: '... OK Boss ! ... '
+    m_sane: {fileID: 8300000, guid: 1a30559f0ebe48c49a2c0de83f7eb638, type: 3}
+    m_crazy: {fileID: 8300000, guid: 119b844655c14ff4681b8e275c039a81, type: 3}
+  - m_sentence: '... Hey ... where is the boss ? ... '
+    m_sane: {fileID: 8300000, guid: cf71fba0e37a0ba48bd56366d7bd6616, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6205d023d614b2546a42916a01982b61, type: 3}
+  - m_sentence: '... Ignore it Cooper ... '
+    m_sane: {fileID: 8300000, guid: f34cf0f8ad1f34344867c4ac62856f78, type: 3}
+    m_crazy: {fileID: 8300000, guid: 71807ca5d813c14468269b4692b99428, type: 3}
+  - m_sentence: '... I have got to get rid of some of this stuff ... '
+    m_sane: {fileID: 8300000, guid: 11d977c79bc5a154386ca8eab04c3db1, type: 3}
+    m_crazy: {fileID: 8300000, guid: d8269f468ec92d547943c0b72e480c07, type: 3}
+  - m_sentence: '... I have to stay focused ... '
+    m_sane: {fileID: 8300000, guid: 890a562fdd37c494eaf2efb613c7c5bc, type: 3}
+    m_crazy: {fileID: 8300000, guid: ea4b0266bbe7b2340bf78093a5dee45b, type: 3}
+  - m_sentence: '... No distractions ... '
+    m_sane: {fileID: 8300000, guid: d52d32572f29b3b4ba5c29fde912a650, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3c0011c4cb8343f49a5efc029a712391, type: 3}
+  - m_sentence: '... Whaaat ? ... '
+    m_sane: {fileID: 8300000, guid: f276e774171fdd0438c2fc5448e9e2a3, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4e1f83d5e88c0e348b28bfc98a3e9725, type: 3}
+  - m_sentence: ... No, that doesn't fit... that doesn't fit at all ...
+    m_sane: {fileID: 8300000, guid: 2d659e02140c8454fa9e586ce38ceab6, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4299d6751b91b7a4e8f01fd69fce0663, type: 3}
+  - m_sentence: '... Well, Maybe... If i forget about the other part ... '
+    m_sane: {fileID: 8300000, guid: 3eb4497a410b50841a23189d610d04ae, type: 3}
+    m_crazy: {fileID: 8300000, guid: 26f88909bf1268d4fbc5286425077020, type: 3}
+  - m_sentence: ... Wait, why did I say that ...
+    m_sane: {fileID: 8300000, guid: 2df560b5c32b251419ff91752ffd2486, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1cc852fd7070b1644a28d663f4991c8f, type: 3}
+  - m_sentence: ... Oh Boyd, you've got this all wrong ...
+    m_sane: {fileID: 8300000, guid: b2d5930492ecb4741838ffefb6d5e73b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1648d9dd5a8f16044b369fac1ae397e9, type: 3}
+  - m_sentence: ... Did i just think that or did someone make me think it ...
+    m_sane: {fileID: 8300000, guid: 700312535e7e78645b4a8350ccd007ad, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5d4627a00ea9f8c42a771fa0fca60ecb, type: 3}
+  - m_sentence: ... But when that happens they turn it into chocolate milk and nobody
+      can tell the difference ...
+    m_sane: {fileID: 8300000, guid: bcb724f6cac8a4b4c9f749e4949ae83a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 0f2ed5d50f2ae0445b273de802c4b136, type: 3}
+  - m_sentence: '... You know what i mean i amounts tender Yeaah ... '
+    m_sane: {fileID: 8300000, guid: dcc8e8ca95e71ab46affa713ec1c7ffb, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3c20cc38fc2790c4bbebe1209dc7bd9d, type: 3}
+  - m_sentence: ... The squirrels have eyes ...
+    m_sane: {fileID: 8300000, guid: a7875334bffcb1c47bec284e887ab44f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 75c3808cb0697744fb0c888a8c7a0ead, type: 3}
+  - m_sentence: ... Listen to me ... Listen to Me ... LISTEN TO ME ...
+    m_sane: {fileID: 8300000, guid: cb94737dc8231c445b979a9cdf964d97, type: 3}
+    m_crazy: {fileID: 8300000, guid: d0cbf91623301964d9ef36c942e36a4e, type: 3}
+  - m_sentence: ... Shut up ... Shut up ... SHUT UP ...
+    m_sane: {fileID: 8300000, guid: 46cb6dd6faeeea046a614f0c6e108fdf, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3c682dac1919ddb4293b6820428b0f30, type: 3}
+  - m_sentence: ... Shhhhhh ... no wait ... Say that again ...
+    m_sane: {fileID: 8300000, guid: cd96f1f033ecb9a4fb3ffa4ab09c498f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1909186708dcad14caad1d9756b27a29, type: 3}
+  - m_sentence: ... Thay think the windows are tinted but they aren't tinted nearly
+      enough ...
+    m_sane: {fileID: 8300000, guid: 9dbc2b92131de49449d3acd9de163158, type: 3}
+    m_crazy: {fileID: 8300000, guid: 379696d95be6e6f4d8cb601e4044ffab, type: 3}
+  - m_sentence: '... Of course the milk''s got spiderwebs in it, taste it ... '
+    m_sane: {fileID: 8300000, guid: 8aa308a96d2b12f4a90bbed9020e6a4a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5942e14a022663b47b87ba9f35499280, type: 3}
+  - m_sentence: ... I scream, you scream, we all scream ... we all scream ...
+    m_sane: {fileID: 8300000, guid: 0449da59302a85e4fbd941dc969e9bfd, type: 3}
+    m_crazy: {fileID: 8300000, guid: 42cf2a5f18e4c7c419c326009053c755, type: 3}
+  - m_sentence: ... The ice cream's in the web, the web is in the cream ...
+    m_sane: {fileID: 8300000, guid: adb40c692944af341a5e76c4d8bebe58, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3fae80f93cec652469b5d48642664b17, type: 3}
+  - m_sentence: ... Oh ... you think it's regular yarn, do you? ...
+    m_sane: {fileID: 8300000, guid: fc0f258d421fc414f8f62c65c61c9ad0, type: 3}
+    m_crazy: {fileID: 8300000, guid: 43710ba90c50efb4da95e18618470371, type: 3}
+  - m_sentence: ... They come, they whisper, they watch, they chop ... chop ... chop
+      ...
+    m_sane: {fileID: 8300000, guid: 1591c7db3340f0140bcf3fb994796d9c, type: 3}
+    m_crazy: {fileID: 8300000, guid: 88bb9b5ca189ff246b4db4e8a6fcb943, type: 3}
+  - m_sentence: ... What's that on your head? That's not a hat ... maybe you could
+      .. tell your hat to shut up ... or at least, ask me the right questions ...
+    m_sane: {fileID: 8300000, guid: 6f20d158944306c4c8559ea91eaeb72a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7991dde1c2cacf0429904773b034fce7, type: 3}
+  - m_sentence: ... I wonder if i'm on camera right now .. ah ! What, am I crazy?
+      ... Of course I am ...
+    m_sane: {fileID: 8300000, guid: 94f65f5f1c9ea97428e448aa4b51ab58, type: 3}
+    m_crazy: {fileID: 8300000, guid: 43729da2b98e1734284bd5ce0bb61238, type: 3}
+  - m_sentence: '... Hi mom ! Look at me ... I''m tangled in a web of deception ...
+      How''s uncle G? ... '
+    m_sane: {fileID: 8300000, guid: 455f927ae224c4243939b6fb8a77e560, type: 3}
+    m_crazy: {fileID: 8300000, guid: df771de4a750e724697aede13c24566c, type: 3}
+  - m_sentence: ... G-Men, who you are you working for? ... Who is G? ...
+    m_sane: {fileID: 8300000, guid: 6043a17e35d8d7347b8e2f3e34f91ae1, type: 3}
+    m_crazy: {fileID: 8300000, guid: cb2877d06212b9f4283822c375b78806, type: 3}
+  - m_sentence: ... G-Man, go man .. Goat-man ... I thought you worked for me! ...
+    m_sane: {fileID: 8300000, guid: 7a4882b06ba2b28449d3ba79ac6107aa, type: 3}
+    m_crazy: {fileID: 8300000, guid: bf71bde99b287614ebf10ee5747119d0, type: 3}
+  - m_sentence: ... My father ... He was a good man, but he served a cruel master
+      ...
+    m_sane: {fileID: 8300000, guid: 78c09823890809e4cb1fdf908415bdf2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2a8173021e37fea47a8a927646a808a7, type: 3}
+  - m_sentence: ... Mom! Are you sure these are your chidren? ...
+    m_sane: {fileID: 8300000, guid: 671b3a5bdf1d90d42aa8837bee107b6a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 48a0fa99e82c97243949ec774b0afeb4, type: 3}
+  - m_sentence: ... These are not my data dots ... These are not my babies ...
+    m_sane: {fileID: 8300000, guid: e9f2e316fba5d984ab5aa933d09d5237, type: 3}
+    m_crazy: {fileID: 8300000, guid: e14b7c53019b7b54a988e20dc63d8995, type: 3}
+  - m_sentence: ... But of course you know all this ... because you're Australian
+      ...
+    m_sane: {fileID: 8300000, guid: 290d444322ba5514481233c530ed8244, type: 3}
+    m_crazy: {fileID: 8300000, guid: bf00e3229d675e14bbabca24fd374806, type: 3}
+  - m_sentence: ... And then it comes out of those wires over there and goes straight
+      into my head .. with all its little audio tricks ...
+    m_sane: {fileID: 8300000, guid: 43e99de7a616f22459804b1ba145bec9, type: 3}
+    m_crazy: {fileID: 8300000, guid: b2dd5dcb4a3f73a49803c50a5c3d313b, type: 3}
+  - m_sentence: '... I don''t want to be a lead weight on a table ... '
+    m_sane: {fileID: 8300000, guid: 2ec7345cb2f7c5f48bbb45acd33d1a66, type: 3}
+    m_crazy: {fileID: 8300000, guid: dc71aa1f019e71740a4e37ce2692babc, type: 3}
+  - m_sentence: ... I see myself more as a  ... turtle ... with a rocket strapped
+      to its back ...
+    m_sane: {fileID: 8300000, guid: dbd27406f9c215f48aaefc614ba5f377, type: 3}
+    m_crazy: {fileID: 8300000, guid: 302d7909317b26a47a95ad7cc9bb670b, type: 3}
+  - m_sentence: .. And he waits ... and he waits ...
+    m_sane: {fileID: 8300000, guid: a0defdfeee3e613419d5956114695349, type: 3}
+    m_crazy: {fileID: 8300000, guid: 0e59abeaab7cb9e4e91f8dc162600a03, type: 3}
+  - m_sentence: '... This milk can''t stay fresh forever ... '
+    m_sane: {fileID: 8300000, guid: 808f697af43cc674c91363478f2168c1, type: 3}
+    m_crazy: {fileID: 8300000, guid: 97f97ae202288094a8412a8f742036b2, type: 3}
+  - m_sentence: ... Something's got to give ...
+    m_sane: {fileID: 8300000, guid: acbc6add8d6611a4bb1e1343e9131eb9, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6707257e75b6e434ea7edf6bb6e89193, type: 3}
+  - m_sentence: ...How many are there? I count forteen but that's not the number
+      on my hand, that's not the number on my neck...
+    m_sane: {fileID: 8300000, guid: 3768b6c9c216e9644b1d43ee18fce2b9, type: 3}
+    m_crazy: {fileID: 8300000, guid: 9239e8326233d6a408e974bfb52d2f36, type: 3}
+  - m_sentence: ...the Truth lives in a small house on the edge of town...
+    m_sane: {fileID: 8300000, guid: 8d642fc6415043d46887cabe2c0b65a7, type: 3}
+    m_crazy: {fileID: 8300000, guid: 80968ff743476374a977bcb6b0a3daa7, type: 3}
+  - m_sentence: ...the Truth is sleeping in a glass box...
+    m_sane: {fileID: 8300000, guid: 7bd93d92ab7c0404e8f970213dc2501d, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6cfeb7723c801bc4a986dafd92db0d1b, type: 3}
+  - m_sentence: ...the Truth is a colorful diamond...
+    m_sane: {fileID: 8300000, guid: 5a79f57a6d0ddcc4c93e2987d6ecf195, type: 3}
+    m_crazy: {fileID: 8300000, guid: 0649ba862ea188e40a299b6f4ae348fd, type: 3}
+  - m_sentence: ...I'm droping out of this yoghurt convention, there's no fruit at
+      the bottom...
+    m_sane: {fileID: 8300000, guid: 6f62729839ee2ed4a932f54f5792600b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1ccc3bd53449a6d4fb47ae0d8708f442, type: 3}
+  - m_sentence: ...Hey! Lady, where are you going with that sweater?
+    m_sane: {fileID: 8300000, guid: 145e07fd4452b874abef59b7679076a7, type: 3}
+    m_crazy: {fileID: 8300000, guid: a3169d0d0fe25e24c846289343a16ce2, type: 3}
+  - m_sentence: ...Do you figure you can get pass me? I'm the guard...
+    m_sane: {fileID: 8300000, guid: 9c81167f829ef6645a94513b136d6cd4, type: 3}
+    m_crazy: {fileID: 8300000, guid: 17142e74fa9466c45bef7dacefd2c5b3, type: 3}
+  - m_sentence: ...I've got the Thruth, it's stuck in my cheek, I'm not gonna eat
+      it right know...
+    m_sane: {fileID: 8300000, guid: e70e78d8bc72a884fa8c3191bf25c5e0, type: 3}
+    m_crazy: {fileID: 8300000, guid: c74a7c8f22223cb41b0c5b0a3e7795cc, type: 3}
+  - m_sentence: ...Are you buying or are you spying...
+    m_sane: {fileID: 8300000, guid: a2575b7ff12bad944ad2f74012ef27f2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 87bb5214c8f07c648b0259bfad3574b9, type: 3}
+  - m_sentence: ...This is ugly. This is like a cyclop with milion eyes...
+    m_sane: {fileID: 8300000, guid: 8badd29e922fdf34ebe99cc6c06d2027, type: 3}
+    m_crazy: {fileID: 8300000, guid: b4c7a454908a3e74ca58d403c1832d23, type: 3}
+  - m_sentence: ...The fire was started in mensware...
+    m_sane: {fileID: 8300000, guid: 79c96b120412a2749accdbdab8ccad83, type: 3}
+    m_crazy: {fileID: 8300000, guid: 325e73a62d3b440479edb70ec2db5490, type: 3}
+  - m_sentence: ...But what if the signal comes early...
+    m_sane: {fileID: 8300000, guid: 7a7192d06ef83b84b8dc52ac88ff6ed9, type: 3}
+    m_crazy: {fileID: 8300000, guid: f25de0ee8dd24664a912f21c3dc722fa, type: 3}
+  - m_sentence: ...the milibit in the middle of this one town, it's me...
+    m_sane: {fileID: 8300000, guid: 75f848b1e24ea0f4993d1def0cdcae6e, type: 3}
+    m_crazy: {fileID: 8300000, guid: 05ec67ab30404e149b1ac9bf370739f3, type: 3}
+  - m_sentence: "\u2026hey, Don't worry about me, I'm centered, I'm the all center
+      in fact..."
+    m_sane: {fileID: 8300000, guid: f02cfe808e89fd04fa7afc965e5a0b66, type: 3}
+    m_crazy: {fileID: 8300000, guid: 115326c8b84d4a846a36349748a8e042, type: 3}
+  - m_sentence: "\u2026Am I? Or is he? Am I he? What's he doing in my house !"
+    m_sane: {fileID: 8300000, guid: 0e6f918266275a64a8f5ecdc92546ed2, type: 3}
+    m_crazy: {fileID: 8300000, guid: fe15958323a88994d946c6b59646094c, type: 3}
+  - m_sentence: "\u2026Someone moved in my neighborhood, uninvited..."
+    m_sane: {fileID: 8300000, guid: a5aec7542053732469318131458352a2, type: 3}
+    m_crazy: {fileID: 8300000, guid: b4c5896e071c94d4384399d98027e6da, type: 3}
+  - m_sentence: "\u2026the house comedy is not going to like this..."
+    m_sane: {fileID: 8300000, guid: 56daf031c0fd08e46b0540eb047bd752, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2be63d5e425c1864fb7351957ef139be, type: 3}
+  - m_sentence: ... They should paint their garage door the same way everybody else
+      is ...
+    m_sane: {fileID: 8300000, guid: 661aa8d3e7f97da4ab62701369a9a67f, type: 3}
+    m_crazy: {fileID: 8300000, guid: becb458717425b84895537940624780d, type: 3}
+  - m_sentence: "\u2026I'm locked in the outside and I'm locked in the inside..."
+    m_sane: {fileID: 8300000, guid: 9edd373bce073cb48990264bf69bbf2e, type: 3}
+    m_crazy: {fileID: 8300000, guid: beb4c7f639cb8874e8c40158802f07e5, type: 3}
+  - m_sentence: "\u2026and the little girl stucks a finger in the deck and saved
+      all the windmills\u2026 but who does the little work for?"
+    m_sane: {fileID: 8300000, guid: 56bf991dcb9adb64b8ebc08576c3e54f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 50e76209a3eb0ac448b916db31bf4503, type: 3}
+  - m_sentence: "\u2026and the little girl stuck a finger in the dike and saved all
+      the windmills\u2026 but who does the little work for?"
+    m_sane: {fileID: 8300000, guid: 56bf991dcb9adb64b8ebc08576c3e54f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 50e76209a3eb0ac448b916db31bf4503, type: 3}
+  - m_sentence: ... Hey, little girl, get your finger out of there. ...
+    m_sane: {fileID: 8300000, guid: 03c445bef24d9634388c1597b4134678, type: 3}
+    m_crazy: {fileID: 8300000, guid: a2d2ece4e67cfd749aefe4c2b197721b, type: 3}
+  - m_sentence: ... you got the skate but I have the key ...
+    m_sane: {fileID: 8300000, guid: f7c047018e47d9248a03e5d5082d2494, type: 3}
+    m_crazy: {fileID: 8300000, guid: 85ca142737b7a294fa30e2de7a352b02, type: 3}
+  - m_sentence: ... How is the milkman ...
+    m_sane: {fileID: 8300000, guid: 66406549f76ef5e4abee445ab9d85c54, type: 3}
+    m_crazy: {fileID: 8300000, guid: 86eb05c720e35ea458330ef57c8e7c06, type: 3}
+  - m_sentence: ... You know my house is clean, right? Right, boss ...
+    m_sane: {fileID: 8300000, guid: 5d5143aac48407f43a5aa961e22d5613, type: 3}
+    m_crazy: {fileID: 8300000, guid: 617bd44cb4f4cf14ebdb34cddd1bc5db, type: 3}
+  - m_sentence: ... Get of on me ...
+    m_sane: {fileID: 8300000, guid: e04d1cfb03d4f8140bf6bce610e44b1b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 203e3882e30f1bf4f93d38738f6aeb94, type: 3}
+  - m_sentence: '... I don''t want any half & half  i''m already half and half ... '
+    m_sane: {fileID: 8300000, guid: 7f53091c188f07b408a875c8b99a912f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 54c9a4bf78135a04ea13389003f85d24, type: 3}
+  - m_sentence: ... if I'm invisible, then why is everyone looking at me?
+    m_sane: {fileID: 8300000, guid: 30c7983abea1edb479e438b84ac90f3f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5d33bd9622657804fb2b428d1f898fe9, type: 3}

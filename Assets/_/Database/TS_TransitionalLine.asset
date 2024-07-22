@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TS_TransitionalLine
+  m_EditorClassIdentifier: 
+  _lines:
+  - m_sentence: How long do they think they can hide that ? ...
+    m_sane: {fileID: 8300000, guid: beaf0f5c63225c14593dff6f2c6c72b9, type: 3}
+    m_crazy: {fileID: 8300000, guid: c2564249d8b87d243abc3095050ed795, type: 3}
+  - m_sentence: I mean, who do they think they're fooling ? ...
+    m_sane: {fileID: 8300000, guid: e1de820729bc86b4e8f0ce5d6a4ce6c5, type: 3}
+    m_crazy: {fileID: 8300000, guid: cc2be024a860dfb4fb2321c94fd0fe52, type: 3}
+  - m_sentence: Can I really be the only person who sees this? ...
+    m_sane: {fileID: 8300000, guid: 540098190f883a942a452fc305ac81f0, type: 3}
+    m_crazy: {fileID: 8300000, guid: b259706a02cb48c4f8fa5c5d693d3b87, type: 3}
+  - m_sentence: Someone has to get this information to the people ...
+    m_sane: {fileID: 8300000, guid: c5ada07a0f729c7418ef471cd2283de1, type: 3}
+    m_crazy: {fileID: 8300000, guid: e35b511006a577641912d76a0380c06a, type: 3}
+  - m_sentence: And if they find out I know this stuff, I'm dead ! ...
+    m_sane: {fileID: 8300000, guid: 9d91b6f56bc6ec14fa202f331f88912a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 9b71eec4deb5f8b49ad0b6f5a2aafc8c, type: 3}
+  - m_sentence: Oh man, this stuff is hot ...
+    m_sane: {fileID: 8300000, guid: 1582e359f85828c4e9fc96f8bae7f6d9, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7c4f2bf49d0dc6f40b022fdf797a3d19, type: 3}
+  - m_sentence: Since they hear dat/since the year that ...
+    m_sane: {fileID: 8300000, guid: 83a1c34ccea82264b8188ed207966f67, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4f1fc5c147ce54b4c9e8d74afd2fb235, type: 3}
+  - m_sentence: Right under people's noses ...
+    m_sane: {fileID: 8300000, guid: e5dd533da75186a43a4dd6fe4ea6a754, type: 3}
+    m_crazy: {fileID: 8300000, guid: fb789be97e14dd043993e2446019d3ac, type: 3}
+  - m_sentence: And nobody seems to care...
+    m_sane: {fileID: 8300000, guid: b494eede1e408c2429c2bfa26f61e638, type: 3}
+    m_crazy: {fileID: 8300000, guid: 8bea12fb4017d344cbfa96362416370b, type: 3}

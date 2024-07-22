@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35624b8868044e44ca9bb3e841598fdc, type: 3}
+  m_Name: TS_Matter
+  m_EditorClassIdentifier: 
+  _lines:
+  - m_sentence: ... Hahaha ha ...
+    m_sane: {fileID: 8300000, guid: 3efa30a6c6551af459f9dbb94bd52ab6, type: 3}
+    m_crazy: {fileID: 8300000, guid: 520d2a0fecd3a31419bf05a324e6d05e, type: 3}
+  - m_sentence: ... Ohoh ...
+    m_sane: {fileID: 8300000, guid: 46bc675e188a4c94ea896a753abde5f2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2a16800fa4986b74a82c4937672e1786, type: 3}
+  - m_sentence: ... Wait ! ...
+    m_sane: {fileID: 8300000, guid: 9a3e2e544c93f194da5aff0114cb56f5, type: 3}
+    m_crazy: {fileID: 8300000, guid: a2db56d13f8daed4588f43021fb5dcd9, type: 3}
+  - m_sentence: ... eueuu ...
+    m_sane: {fileID: 8300000, guid: c258a3951f8a2a44bb0dfd6a44d77469, type: 3}
+    m_crazy: {fileID: 8300000, guid: cd2d633114c081c40bada8408846a43f, type: 3}
+  - m_sentence: ... Uhmm ...
+    m_sane: {fileID: 8300000, guid: e287e1b5ac0181d43bcdc68018251925, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5654c3afc78aa594abfeb6856fa9bdf9, type: 3}
+  - m_sentence: ... "cough" ...
+    m_sane: {fileID: 8300000, guid: 55390b4bb27899746a21a7c9960c8df1, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2086ed4fedd5bf841a4e9957b0463a28, type: 3}
+  - m_sentence: ... euuhmm ...
+    m_sane: {fileID: 8300000, guid: fcf2015b7af9db444ba2500f358a6753, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4bd547f873e36a244939b2ea89ea84d2, type: 3}
+  - m_sentence: ... mmhhhh ...
+    m_sane: {fileID: 8300000, guid: ea85e79c037f2704b9863c89fc054009, type: 3}
+    m_crazy: {fileID: 8300000, guid: af552da5b60a44648880befd202b47b9, type: 3}
+  - m_sentence: ... Ah ! ...
+    m_sane: {fileID: 8300000, guid: f1eb8be14b6413841aa20efaa9f217ff, type: 3}
+    m_crazy: {fileID: 8300000, guid: 193fc422abfbf0b418cb6707199fb0dc, type: 3}
+  - m_sentence: ... Yes yes ...
+    m_sane: {fileID: 8300000, guid: 19f88604092e35f42a359780fa153191, type: 3}
+    m_crazy: {fileID: 8300000, guid: cce159cf50a8eaf4984d433d68acea49, type: 3}
+  - m_sentence: ... What ? ...
+    m_sane: {fileID: 8300000, guid: 43722c524df184a46b02a2a688dee807, type: 3}
+    m_crazy: {fileID: 8300000, guid: f96c733b9cd8f7e44bd200575d0126dc, type: 3}
+  - m_sentence: ... No no no nonono ...
+    m_sane: {fileID: 8300000, guid: 8f5c1d5f72375eb4b95e4256056a5013, type: 3}
+    m_crazy: {fileID: 8300000, guid: c8547e389f842cd4190646165d671a2a, type: 3}
+  - m_sentence: ... Ohoo ok but ...
+    m_sane: {fileID: 8300000, guid: 197f71085e7c80b4c82df6fb90e20fbc, type: 3}
+    m_crazy: {fileID: 8300000, guid: e5b3ab1321d27f6449119a9d1ec06270, type: 3}
+  - m_sentence: ... HA! ...
+    m_sane: {fileID: 8300000, guid: 16f07c146a2d5f24090ecf51b5755eb4, type: 3}
+    m_crazy: {fileID: 8300000, guid: 14bfa95ab8651654387cf6f3b9cfd414, type: 3}
+  - m_sentence: ... Riiiiight ...
+    m_sane: {fileID: 8300000, guid: 3528d38ae1d1e06439e74fa0468f567c, type: 3}
+    m_crazy: {fileID: 8300000, guid: c94573b911ec5d04c9a4dc6537a1ce8b, type: 3}

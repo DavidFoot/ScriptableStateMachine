@@ -1,10 +1,8 @@
 {
-    "name": "ScriptableObject.Editor",
-    "rootNamespace": "ScriptableObject.Editor",
+    "name": "GameManager.Runtime",
+    "rootNamespace": "GameManager.Runtime",
     "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

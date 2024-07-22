@@ -19,7 +19,8 @@ namespace StateMachine.Runtime
         {
             _monologueAudio = GetComponent<AudioSource>();
             _tmpDelayBetweenSentence = _delayBetweenSentence;
-            PickSentence(_linkToBeginWith);
+            PickAndPlaySentence(_linkToBeginWith);
+            _nextSentenceType = GetTransitionByWeight(_linkToBeginWith.m_transitionObject._transitions);
         }
         private void Update()
         {
@@ -44,21 +45,34 @@ namespace StateMachine.Runtime
 
         public void PlayNewSentence()
         {
-            if (_nextSentenceType) PickSentence(_nextSentenceType);
+            if (_nextSentenceType)
+            {
+                Debug.Log(_nextSentenceType.name);
+                PickAndPlaySentence(_nextSentenceType);
+                if(Random.Range(0,1f) <= _matterLineProbability && _isMatterLine == false)
+                {
+                    _linkToMatterLine.m_transitionObject = _nextSentenceType.m_transitionObject;
+                    _nextSentenceType = _linkToMatterLine;
+                    _isMatterLine = true;
+                    return;
+                }
+                _nextSentenceType = GetTransitionByWeight(_nextSentenceType.m_transitionObject._transitions);
+                _isMatterLine = false;
+            }
         }
-        public void SanityToggle()
+        public void SanityToggle() => _sanity = !_sanity;
+        
+        public void AutoSkipToggle() => _autoSkip = !_autoSkip;
+
+        public void LeaveGame()
         {
-            _sanity = !_sanity;
-        }
-        public void AutoSkipToggle()
-        {
-            _autoSkip = !_autoSkip;
+            Application.Quit();
         }
         #endregion
 
         #region Utils
 
-        private void PickSentence(LinkRessourceToTransition _sentenceRepository)
+        private void PickAndPlaySentence(LinkRessourceToTransition _sentenceRepository)
         {
             _sentenceIndex = Random.Range(0, _sentenceRepository.m_sentencesAndSounds._lines.Length);
             _sentence = _sentenceRepository.m_sentencesAndSounds._lines[_sentenceIndex].m_sentence;
@@ -73,9 +87,7 @@ namespace StateMachine.Runtime
             _monologueText.text = _sentence;
             _monologueAudio.clip = _sentenceAudio;
             _monologueAudio.Play();
-            _nextTransition = GetTransitionByWeight(_sentenceRepository.m_transitionObject._transitions);
-            _nextSentenceType = _nextTransition;
-            Debug.Log(_sentenceRepository.name);
+            
         }
         private LinkRessourceToTransition GetTransitionByWeight(BoydTransition[] transitions)
         {
@@ -101,8 +113,12 @@ namespace StateMachine.Runtime
         #region Privates & Protected
 
         [SerializeField] LinkRessourceToTransition _linkToBeginWith;
+        [SerializeField] LinkRessourceToTransition _linkToMatterLine;
+        [Range(0.0f, 1.0f)]
+        [SerializeField] public float _matterLineProbability;
         [SerializeField] TMP_Text _monologueText;
         [SerializeField] float _delayBetweenSentence;
+        private bool _isMatterLine;
         private float _tmpDelayBetweenSentence;
         private string _sentence;
         private LinkRessourceToTransition _nextTransition;

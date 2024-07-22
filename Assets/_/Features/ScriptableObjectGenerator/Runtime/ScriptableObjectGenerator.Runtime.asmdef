@@ -1,9 +1,7 @@
 {
     "name": "ScriptableObjectGenerator.Runtime",
     "rootNamespace": "ScriptableObjectGenerator.Runtime",
-    "references": [
-        ""
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

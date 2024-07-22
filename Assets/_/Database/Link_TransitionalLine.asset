@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1da9309e9f050d419e1c4cd0974941d, type: 3}
+  m_Name: Link_TransitionalLine
+  m_EditorClassIdentifier: 
+  m_sentencesAndSounds: {fileID: 11400000, guid: 2535c9df5e8003a4b871a42a57262c91, type: 2}
+  m_transitionObject: {fileID: 11400000, guid: 2bb5d367de57a454c9e31ec68823632a, type: 2}
